@@ -1,0 +1,14 @@
+.fotter__container {
+    text-align: center;
+    background-color: var(--light-grey);
+    margin-top: auto;
+}
+
+.footer_social-icon li {
+    display: inline-block;
+    padding: 1rem;
+}
+
+.code_color {
+    color: var(--secondary-color);
+}
