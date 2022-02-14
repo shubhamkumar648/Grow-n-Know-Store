@@ -1,5 +1,6 @@
 :root {
---hometext-color: rgb(100, 11, 40)
+--hometext-color: rgb(100, 11, 40);
+--textoverlaybg-color: rgba(255, 255, 255, 0.432)
 }
 
 
