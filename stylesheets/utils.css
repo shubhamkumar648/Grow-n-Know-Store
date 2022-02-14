@@ -30,3 +30,6 @@ body {
   color: var(--discount);
 }
 
+.wrap{
+  flex-wrap: wrap;
+}
