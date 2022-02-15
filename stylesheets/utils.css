@@ -12,6 +12,9 @@ body {
 --productcard-shadow: 13px 13px 21px -5px rgba(0, 0, 0, 0.3)
 }
 
+.flex_center {
+  justify-content: center;
+}
 
 .text_center{
   text-align: center;
@@ -32,4 +35,44 @@ body {
 
 .wrap{
   flex-wrap: wrap;
+}
+
+table, th {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+table, td{
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1rem;
+  border: none;
+  }
+
+
+.tablerightText{
+  text-align: right;
+}
+
+.tableleftText{
+text-align: left;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.boder-btm{
+  border-bottom: 1px solid var(--primary-color);
+}
+
+.place_order_btn{
+
+  border-radius: 2px;
+  padding: 0.4rem 14rem;
+  margin-left: 2rem;
+  margin-bottom:1rem ;
+
 }
