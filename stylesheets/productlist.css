@@ -7,7 +7,7 @@
   justify-content: space-between;
 }
 
-.clearall{
+.clearall {
   border-radius: 0.5rem;
   padding: 0.5rem;
   color: var(--primary-color);
@@ -26,7 +26,7 @@
 }
 
 .product_card:hover {
-   box-shadow: var(--productcard-shadow);
+  box-shadow: var(--productcard-shadow);
 }
 
 

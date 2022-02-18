@@ -1,7 +1,10 @@
-@import url("./utils.css");
+@import url("https://grow-n-know.netlify.app/styles/main.css");
 @import url("./footer.css");
 @import url("./homepage.css");
 @import url("./productlist.css");
 @import url("./cartmanagment.css");
 @import url("./wishlist.css");
+@import url("./login.css");
+@import url("./utils.css");
+
 

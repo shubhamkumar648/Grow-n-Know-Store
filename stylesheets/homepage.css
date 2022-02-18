@@ -10,15 +10,15 @@
     text-align: center;
 }
 
-
 .image_container {
-    background-image: url('../assets/bgImg.jpg');
+    background-image: url('../assets/banner-11.jpg');
     width: 100%;
-    height: 80vh;
+    height: 60vh;
     color: var(--danger-color);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
 
 .category_container {
@@ -38,8 +38,16 @@
     opacity: 0.8;
 }
 
+.txt_color {
+    color: var(--lightwhite-color);
+}
+
+.txt_color:hover {
+    color: var(--lightwhite-color);
+}
+
 .headtext_color {
-    color: var(--hometext-color);
+    color: var(--lightwhite-color);
 }
 
 .headtext_color2 {
@@ -50,10 +58,16 @@
     opacity: 1.0;
 }
 
-.categories img{
+.categories img {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
+}
+
+.shopNow {
+    position: absolute;
+    top: 50%;
+    left: 44%;
 }
 
 .text-overlay {
