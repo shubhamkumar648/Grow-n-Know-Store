@@ -4,7 +4,6 @@
     justify-content: center;
     margin: 0 auto;
     height: 80vh;
-
 }
 
 .login_container {
@@ -23,7 +22,6 @@
 }
 
 .login_color {
-
     color: var(--primary-color);
 }
 

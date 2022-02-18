@@ -10,7 +10,6 @@
     text-align: center;
 }
 
-
 .image_container {
     background-image: url('../assets/banner-11.jpg');
     width: 100%;
@@ -39,13 +38,14 @@
     opacity: 0.8;
 }
 
-.txt_color{
+.txt_color {
     color: var(--lightwhite-color);
 }
 
-.txt_color:hover{
+.txt_color:hover {
     color: var(--lightwhite-color);
 }
+
 .headtext_color {
     color: var(--lightwhite-color);
 }
@@ -58,16 +58,16 @@
     opacity: 1.0;
 }
 
-.categories img{
+.categories img {
     height: 100%;
     object-fit: cover;
     border-radius: 5px;
 }
 
-.shopNow{
+.shopNow {
     position: absolute;
     top: 50%;
-    left:44%;
+    left: 44%;
 }
 
 .text-overlay {

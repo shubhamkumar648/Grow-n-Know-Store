@@ -5,31 +5,32 @@ body {
 }
 
 :root {
---hometext-color: hsl(340, 80%, 22%);
---textoverlaybg-color: hsla(0, 0%, 100%, 0.432);
---midgrey: hsl(220, 9%, 46%);
---discount: hsl(352, 66%, 43%);
---productcard-shadow: 13px 13px 21px -5px rgba(0, 0, 0, 0.3);
---auth-shadow: 0 3px 8px rgb(0 0 0 / 24%)
+  --hometext-color: hsl(340, 80%, 22%);
+  --textoverlaybg-color: hsla(0, 0%, 100%, 0.432);
+  --midgrey: hsl(220, 9%, 46%);
+  --discount: hsl(352, 66%, 43%);
+  --productcard-shadow: 13px 13px 21px -5px rgba(0, 0, 0, 0.3);
+  --auth-shadow: 0 3px 8px rgb(0 0 0 / 24%)
 }
 
 
-.theme_color{
-color: var(--primary-color);
+.theme_color {
+  color: var(--primary-color);
 }
+
 .flex_center {
   justify-content: center;
 }
 
-.text_center{
+.text_center {
   text-align: center;
 }
 
 .linthrough {
- text-decoration: line-through;
+  text-decoration: line-through;
 }
 
-.light{
+.light {
   color: var(----midgrey);
   font-weight: lighter;
 }
@@ -38,7 +39,7 @@ color: var(--primary-color);
   color: var(--discount);
 }
 
-.wrap{
+.wrap {
   flex-wrap: wrap;
 }
 
@@ -48,20 +49,20 @@ table, th {
   font-weight: 900;
 }
 
-table, td{
+table, td {
   font-size: 1.25rem;
   font-weight: 700;
   padding: 1rem;
   border: none;
-  }
+}
 
 
-.tablerightText{
+.tablerightText {
   text-align: right;
 }
 
-.tableleftText{
-text-align: left;
+.tableleftText {
+  text-align: left;
 }
 
 table {
@@ -69,15 +70,13 @@ table {
   border-collapse: collapse;
 }
 
-.boder-btm{
+.boder-btm {
   border-bottom: 1px solid var(--primary-color);
 }
 
-.place_order_btn{
-
+.place_order_btn {
   border-radius: 2px;
   padding: 0.4rem 14rem;
   margin-left: 2rem;
-  margin-bottom:1rem ;
-
+  margin-bottom: 1rem;
 }
