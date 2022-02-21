@@ -38,13 +38,6 @@
     opacity: 0.8;
 }
 
-.txt_color {
-    color: var(--lightwhite-color);
-}
-
-.txt_color:hover {
-    color: var(--lightwhite-color);
-}
 
 .headtext_color {
     color: var(--lightwhite-color);

@@ -80,3 +80,8 @@ table {
   margin-left: 2rem;
   margin-bottom: 1rem;
 }
+
+.position{
+  top:1px;
+  right:1.2rem
+}
